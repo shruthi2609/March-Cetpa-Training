@@ -1,0 +1,56 @@
+h1{
+   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;*/
+    font-family: 'Cairo', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Permanent Marker', cursive;
+text-align: center;
+}
+p{
+   /* font-family: 'Cairo', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Permanent Marker', cursive; 
+    color:#ed3709;*/
+    text-align: justify; 
+    text-indent: 30px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+button{
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Permanent Marker', cursive;
+    color: purple;
+    font-size: medium;
+    margin-right: 50px;
+    margin-left:20px;
+    padding:20px;
+    background-color: bisque;
+    border-style:solid;
+    border-radius:25px;
+}
+button:hover{
+    background-color: lightsalmon;
+    border-style:none
+}
+.word{
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+.nav{
+    background-color: bisque;
+   /* border-style: dotted;
+    border-width:5px;
+    border-color: purple;*/
+    border:5px dotted purple;
+      padding-top:30px;
+    padding-bottom: 30px;
+    /* padding:10px 15px 20px;
+    padding-bottom:20px;*/
+
+
+}

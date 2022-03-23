@@ -1,0 +1,21 @@
+/*
+1.general sibling selector (~)
+2.adjacent sibling (+)
+3.child selector (>)
+4.descendant selector (space)*/
+p~p{
+    background-color: aqua;
+}
+h1+p{
+    background-color: bisque;
+}
+body p{
+    background-color: chartreuse;
+}
+body>p{
+    background-color: brown;
+}
+body>.lastchild{
+    background-color: magenta;
+}
+

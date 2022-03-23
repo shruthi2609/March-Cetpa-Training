@@ -1,0 +1,28 @@
+/*universal selector*/
+/**{
+    text-decoration:underline;
+}*/
+#home{
+    background-color: burlywood;
+}
+#products{
+    background-color: coral;
+}
+#additional,#contact{
+    background-color:aqua
+}
+.p1{
+    color: rgb(246, 11, 11);
+}
+.addclass{
+    background-color: aqua;
+}
+.p2{
+    color: orangered;
+}
+.p3{
+    color:maroon
+}
+h1{
+    background-color: navy;
+}

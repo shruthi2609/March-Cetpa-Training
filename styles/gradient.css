@@ -1,0 +1,89 @@
+.linear{
+    height:200px;
+    width: 100%;
+    background-color: red;
+    background-image: linear-gradient(
+       to right,
+        red ,
+        yellow 40%,
+        );
+}
+.radial{
+    height:200px;
+    width: 100%;
+    background-color: red;
+    background-image:radial-gradient(
+        circle at top right,
+        red,
+        yellow,
+        green
+    );
+}
+.radial:hover{
+    opacity:0.5
+}
+img{
+    width:25%;
+    height:25%;
+    opacity:1.0;
+}
+img:hover{
+    opacity: 0.5;
+}
+.jelly{
+    border:3px;
+    padding:30px;
+}
+.anim{
+    width:100%;
+    height:25%;
+    background-color: red;
+    -webkit-animation-name:sample;
+    animation-name:sample;
+    -webkit-animation-duration:30s;
+    animation-duration:30s;
+}
+@-webkit-keyframes sample {
+  /*  from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }*/
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: green;
+    }
+    30%{
+        background-color: chartreuse;
+    }
+    100%{
+        background-color: yellow;
+    }
+    
+}
+@keyframes sample {
+  /*  from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }*/
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: green;
+    }
+    30%{
+        background-color: chartreuse;
+    }
+    50%{
+        background-color: yellow;
+    } 
+}
+body{
+    background-image: url('https://st2.depositphotos.com/1364916/5341/v/600/depositphotos_53411049-stock-illustration-health-nature-logo-vector.jpg') repeat;
+}

@@ -79,7 +79,64 @@ console.log(obj.getHours())
 console.log(obj.getMinutes())
 console.log(obj.getSeconds())
 Math.random()*(high-low)+low
-console.log(Math.random()*(20-1)+1)*/
+console.log(Math.random()*(20-1)+1)
+let obj={
+    "username":"john",
+    true:"arrears",
+    23:"age"
+}
+console.log(Object.keys(obj))*/
+//Map and sets
+/*let map=new Map([
+    ["username","john"],
+    [23,"age"],
+    [true,"arrears"]
+])
+map.set("username","john")
+map.set(23,"age")
+map.set(true,"arrears")
+
+console.log(map.get("username"))
+console.log(map.get(23))
+console.log(map.get(true))
+
+console.log(map.has("age"))
+console.log(map.delete(23))
+console.log(map.get(23))
+console.log(map.size)
+for(let item of map.keys()){
+    console.log( item)
+    //console.log(typeof item) -> data types are preseved
+}
+let users=new Set()
+let john={
+    username:"john",
+    role:"admin"
+}
+let peter={
+    username:"peter",
+    role:"trainee"
+}
+users.add(john)
+users.add(peter)
+users.add(john)
+
+/*for (let user of users){
+    console.log(`${user.username} is a ${user.role}`)
+}
+let new_user=new Array(users)
+new_user[0].map((item)=>console.log(item))
+let s1=new Set()
+s1.add(1)
+s1.add(2)
+s1.add(3)
+s1.delete(1)
+for (let i of s1){
+    console.log(i)
+}
+console.log(s1.has(1))*/
+
+
 
 
 

@@ -27,7 +27,21 @@ let fname="john"
 let userid=1234
 let mobile=918811881
 let place="Noida"
-//printDetails(fname,userid,mobile,place)*/
+//printDetails(fname,userid,mobile,place)
+function curry(f)
+{
+   return function(a){
+      return function(b){
+          return f(a,b)
+      }
+  }
+}
+function sum(a,b){
+    return a+b
+}
+
+let curriedsum=curry(sum)
+console.log(curriedsum(10)(5))*/
 
 
 

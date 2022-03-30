@@ -7,8 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-    <h1>Home Page</h1>
-    </div>
+    <p>First Page</p>
+    <a href="sample2.html">go to next page</a>
+    <button onclick="forwardnavigation()">next</button>
+    <script>
+        function forwardnavigation(){
+            window.history.go(2)
+        }
+    </script>
 </body>
 </html>

@@ -135,6 +135,9 @@ promise.then((res)=>console.log(res)).catch((err)=>console.log("some errror occu
 
 // see you tmro , take care.
 // level 5 based on dom methods , you will do tmro
+//pushed the code an task please have a look.
+
+// thank you guys , bye :D
 
 
 

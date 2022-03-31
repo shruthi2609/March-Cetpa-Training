@@ -1,4 +1,3 @@
-
 function createHeading(){
 let divcontainer=document.getElementById("container1")
 //createElement

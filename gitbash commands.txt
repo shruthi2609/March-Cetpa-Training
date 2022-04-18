@@ -1,0 +1,51 @@
+git init -> initializes an empty local repo
+
+git add filename -> it will move the file to the staging area
+
+git status -> current status (staging, directory)
+
+git rm --cached services.html - > removes a file from statging area ,
+ and puts back to the directory
+
+git add -A - adds all the files to staging area
+
+git add .- adds all the files to staging area
+
+git commit -m "commitmessage"
+
+git remote add origin githubrepolink
+
+git push origin branchname
+
+git config --list
+
+new user:
+git config --global  user.name "username"
+
+git config --global  user.email "email"
+
+replace user:
+
+git config --global --replace-all user.name "username"
+
+git config --global --replace-all user.email "email"
+
+creating branches:
+1.git checkout -b branchname
+2.git branch -M branchname
+
+checkingout from a branch:
+git checkout branchname
+
+deleting a branch locally:
+
+git branch -d branchname 
+
+deleting a branch remote:
+git push origin --delete branchname 
+
+
+
+
+
+
